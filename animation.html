@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en"  class="h">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet"  type="text/css" href="animation.css" />
+    <!-- font -->
+    <link href='https://fonts.googleapis.com/css?family=Archivo Black' rel='stylesheet'>
+
+    <title>Art of ShuaigeHe</title>
+
+
+  </head>
+  <body  class="h">
+
+    <div class="row py-5 px-5 h">
+      <!--left part-->
+      <div class="col-md-1 c1">
+        <div class="logo">
+          <img src="img/logo.png" alt="logo">
+        </div>
+
+
+        <!--navigation bar-->
+        <div class="navigation h">
+          <h6>
+            <a class="n_link pb-2" href="index.html">Home</a>
+            <a class="nc_link pb-2" href="index.html">Works</a>
+            <a class="n_link pb-2" href="about.html">About</a>
+            <a class="n_link pb-2" href="contact.html">Contact</a>
+          </h6>
+        <!--sub_nav-->
+        <hr>
+            <a class="n_link pb-2 small" href="illustration.html">Illustration</a>
+            <a class="n_link pb-2 small" href="graphic.html"><small>Graphic Design</small></a>
+            <a class="n_link pb-2 small" href="web.html">Web Design</a>
+            <a class="n_link pb-2 small" href="photo.html">Photography</a>
+        </div>
+      </div>
+
+
+
+
+      <!--middle part-->
+      <div  id="slide" class="col-md-11 c2 h">
+        <!--Tittle-->
+        <div class="tl pt-0">
+          <h5  class="text-secondary">Animation</h5>
+        </div>
+        <hr>
+
+        <!-- Video Play -->
+        <main style="overflow: scroll hidden;">
+          <div class="d-flex flex-nowrap">
+              <video class="ani" controls="controls" loop>
+                <source src="img/ani/1.mp4" type="video/mp4"></source>
+              </video>
+              <video class="ani" controls="controls" loop>
+                <source src="img/ani/2.mp4" type="video/mp4"></source>
+              </video>
+              <video class="ani" controls="controls" loop loop>
+                <source src="img/ani/3.mp4" type="video/mp4"></source>
+              </video>
+              <video class="ani" controls="controls" loop>
+                <source src="img/ani/4.mp4" type="video/mp4"></source>
+              </video>
+          </div>
+        </main>
+
+      </div>
+    </div>
+
+    <!-- icons -->
+    <div class="icon">
+      <a href="https://www.instagram.com/rn9_v/" target="_blank"><img src="img/icon/ins.png" alt="instagram" title="instagram" class="ins"></a>
+      <a href="https://www.pixiv.net/users/10251718" target="_blank"><img src="img/icon/pix.png" alt="pixiv" title="pixiv" class="pix"></a>
+      <a href="https://twitter.com/Ry69338147" target="_blank"><img src="img/icon/twi.png" alt="twitter" title="twitter" class="twi"></a>
+    </div>
+
+
+    <script type="text/javascript">
+    var item = document.getElementsByTagName('MAIN')[0];
+
+window.addEventListener('wheel', function(e) {
+
+if (e.deltaY > 0) item.scrollLeft += 100;
+else item.scrollLeft -= 100;
+});
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
